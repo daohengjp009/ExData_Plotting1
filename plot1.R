@@ -1,4 +1,3 @@
-install.packages("data.table")
 library(data.table)
 path <- file.path("./","household_power_consumption")
 hcp <- data.table(fread(file.path(path, "household_power_consumption.txt")))
